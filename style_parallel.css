@@ -36,11 +36,11 @@ svg {
 .tooltip {   
     color: rgba(54,78,79,0.5);
     font-family: 'Avenir Next';
-    font-size: 40px;
+    font-size: 80px;
     margin: 10px;
     height: 25px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 95px;
+    margin-top: 20px;
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
     border-radius:10px;
