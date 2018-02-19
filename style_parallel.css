@@ -1,0 +1,75 @@
+svg {
+  font: 10px sans-serif;
+}
+
+.background path {
+  fill: none;
+  stroke: #ccc;
+  stroke-opacity: .4;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  stroke: steelblue;
+  stroke-opacity: .7;
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff;
+  cursor: move;
+}
+
+.tooltip {   
+    color: rgba(54,78,79,0.5);
+    font-family: 'Avenir Next';
+    font-size: 80px;
+    margin: 10px;
+    height: 25px;
+    margin-left: 95px;
+    margin-top: 20px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#heading1 {
+    font: 23px 'Avenir Next';
+    color: darkslategrey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#myButton {
+    align-content: center;
+    font: 15px 'Avenir Next';
+    color: white;
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 8px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    
+}
+#myButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#info_box {
+    font-family: 'Avenir Next';
+}
