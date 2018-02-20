@@ -47,7 +47,7 @@ svg {
 }
 
 #heading1 {
-    font: 23px 'Avenir Next';
+    font: 35px 'Avenir Next';
     color: darkslategrey;
     text-align: center;
     padding-top: 10px;
@@ -58,18 +58,48 @@ svg {
     align-content: center;
     font: 15px 'Avenir Next';
     color: white;
+    background-color: #a04f60;
+    border: none;
+    border-radius: 8px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;   
+}
+
+#myButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+#myButton2 {
+    align-content: center;
+    font: 15px 'Avenir Next';
+    color: white;
     background-color: darkslategrey;
     border: none;
     border-radius: 8px;
     padding: 2px;
     padding-left: 6px;
-    padding-right: 6px;
-    
+    padding-right: 6px;   
 }
-#myButton:hover {
+
+#myButton2:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #info_box {
-    font-family: 'Avenir Next';
+    font: 20px 'Avenir Next';
+}
+
+#picture1 {
+    width: 40%;
+    height: auto;
+    border: 5px;
+    border-color: darkslategray;
+}
+
+#justtext {
+    font: 15px 'Avenir Next';
+    color: darkslategray;
 }
