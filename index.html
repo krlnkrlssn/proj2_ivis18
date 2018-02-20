@@ -58,7 +58,7 @@ var line = d3.svg.line(),
 var svg = d3.select("body").append("svg")
     .attr("width", w + m[1] + m[3])
     .attr("height", h + m[0] + m[2])
-  .append("g")
+    .append("g")
     .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 d3.csv(the_data_file, function(error, piers) {
@@ -177,6 +177,11 @@ function brush() {
     }) ? null : "none";
   });}};
 </script>
+</div>
+<div> <!-- Analytic trail -->
+    <div id="heading1"></div>
+
+    
 </div>
 </body>
 </html>
