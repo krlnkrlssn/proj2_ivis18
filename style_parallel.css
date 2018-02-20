@@ -54,6 +54,14 @@ svg {
     padding-bottom: 5px;
 }
 
+#heading2 {
+    font: 25px 'Avenir Next';
+    color: darkslategrey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 #myButton {
     align-content: center;
     font: 15px 'Avenir Next';
